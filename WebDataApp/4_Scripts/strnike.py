@@ -13,7 +13,7 @@ st.title('AP2 Web Data Applications')
 st.header('Douglas Felipe - 2303767, Maria Vitoria - 2401714  and Willian Fagundes - 2401648')
 tab1, tab2, tab3, tab4, tab5, tab6,tab7 = st.tabs(["Nomes", "Tipos", "Valores_Com_Desconto", "Valores_Sem_Desconto", "Porcentagem_Desconto", "Avaliações", "Modelos"])
 
-engine = create_engine('sqlite:///4_Scripts/banconike.db', echo =True)
+engine = create_engine('sqlite:///WebDataApp\4_Scripts\banconike.db', echo =True)
 
 dados = pd.read_sql('SELECT * FROM Dados', con = engine)
 
