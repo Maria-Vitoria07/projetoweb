@@ -15,7 +15,7 @@ tab1, tab2, tab3, tab4, tab5, tab6,tab7 = st.tabs(["Nomes", "Tipos", "Valores_Co
 
 engine = create_engine('sqlite:///4_Scripts/banconike.db', echo =True)
 
-dados = pd.read_sql('SELECT * FROM dadosnike', con = engine)
+dados = pd.read_sql('SELECT * FROM dados', con = engine)
 
 def gerar_cores_aleatorias(n):
         return ["#%06x" % random.randint(0, 0xFFFFFF) for _ in range(n)]
