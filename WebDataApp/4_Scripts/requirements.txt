@@ -1,0 +1,9 @@
+﻿pandas
+plotly
+flask
+selenium
+streamlit
+beautifulsoup4
+lxml
+sqlalchemy
+unidecode

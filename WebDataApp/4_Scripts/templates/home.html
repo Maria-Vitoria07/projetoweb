@@ -1,0 +1,79 @@
+<html lang = 'pt-BR'>
+    <Head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </Head>
+        <header class="header header-container">
+        </header>
+        <div class="container centered-content background">
+            <h1>Projeto Web Data Applications</h1>
+            <div class="centered-content btn" style="margin-top: 2rem">
+                <button onclick="window.location.href='/valoresComDesconto/'">valores Com Desconto</button>
+				<button onclick="window.location.href='/ValoresSemDesconto/'">Valores Sem Desconto</button>
+                <button onclick="window.location.href='/Nome/'">Nomes</button>
+				<button onclick="window.location.href='/Categoria/'">Categorias</button>
+				<button onclick="window.location.href='/Modelo/'">Modelos</button>
+                <button onclick="window.location.href='/Porcentagem desc/'">Porcentagem de descontos</button>
+                <button onclick="window.location.href='/Avaliação/'">Avaliações</button>
+                <button onclick="window.location.href='/Tabela/'">Tabela</button>
+				
+            </div>
+        </div>
+
+        <footer class="fixed-footer">
+            This site is brought to you by:Douglas Felipe - 2303767, Maria Vitoria - 2401714  and Willian Fagundes - 2401648
+        </footer>
+    </body>
+</html>
+<style>
+    body {
+		font-family: Roboto, Arial;
+		padding: 0;
+		margin: 0;
+	}
+	.centered-text {
+		text-align: center;
+	}
+	.header {
+		background-color: #000000;
+	}
+	.header-container {
+		padding: 1rem;
+	}
+	.container {
+		padding: 2rem;
+	}
+	.centered-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.btn button {
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 200rem;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1rem 1rem;
+	}
+	.btn button:hover {
+		color: rgb(255, 255, 255);
+		background: rgb(59, 59, 59) none repeat scroll 0% 0% / auto padding-box border-box;
+		border-width: 0px;
+		border-style: solid;
+	}
+	.fixed-footer {
+		padding: 2rem;
+		bottom: 0;
+		position: fixed;
+		width: 100%;
+		background-color: #C4C4C41A;
+  }
+</style>
